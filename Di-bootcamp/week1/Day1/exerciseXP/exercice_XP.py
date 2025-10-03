@@ -120,19 +120,33 @@ print(basket)
 # I made your avocado sandwich
 # I made your egg sandwich
 # I made your chicken sandwich
+
 sandwich_orders = ["Tuna sandwich", "Pastrami sandwich", "Avocado sandwich", "Pastrami sandwich", "Egg sandwich", "Chicken sandwich", "Pastrami sandwich"]
 print(sandwich_orders)
 while "Pastrami sandwich" in sandwich_orders:
     sandwich_orders.remove("Pastrami sandwich")
+
 print(sandwich_orders)
 finished_sandwiches=[]
 sandwich_orders_initial=sandwich_orders[:] #conservation de la liste initiale pour que la boucle se passe bien
-sandwich=""
-while sandwich in sandwich_orders_initial:
-    print(sandwich)
-    finished_sandwiches.append(sandwich)
-    print(finished_sandwiches)
+print(f"liste initiale {sandwich_orders_initial}")
+
+# while sandwich_orders:
+#     sandwich=sandwich_orders[0]
+#     print(f"I made you {sandwich}") #affichage du sandwich en cours de préparation
+#     finished_sandwiches.append(sandwich)    #ajout du sandwich à la liste des sandwiches préparés
+#     print(finished_sandwiches)  #affichage de la liste des sandwiches préparés
+#     sandwich_orders.remove(sandwich)    #retrait du sandwich de la liste des sandwiches à préparer
+#     print(sandwich_orders)  #affichage de la liste des sandwiches à préparer   ; marche aussi et est plus élégant
+         
+for sandwich in sandwich_orders_initial:
+
+    finished_sandwiches.append(sandwich)   
     sandwich_orders.remove(sandwich)
-    print(sandwich)
+    print(f"I made you {sandwich}")
+print(f"finished sandwiches {finished_sandwiches}")
+print(f"sandwiches orders {sandwich_orders}")
+
+
 
 
