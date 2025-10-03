@@ -20,6 +20,6 @@ my_dic={}
 animals_farm_list=["rabbit", "cat", "dog"]
 for i, animal in enumerate(animals_farm_list):
     print(f"i : {i} ")
-    animals_farm_list=animal + "s"
+    animals_farm_list[i]=animal + "s"
     print(animals_farm_list)
 print(animals_farm_list)
