@@ -1,5 +1,5 @@
-movies = ["west side story","alien","the last day"]
-
-# Print a custom message for each fruit
-for movie in movies:
-    print(f"I love {movie}!")
+fruits = ["apple", "banana", "cherry", "date", "elderberry"]
+i=0
+while i in range(5):
+    print(fruits[i])
+    i=i+1
