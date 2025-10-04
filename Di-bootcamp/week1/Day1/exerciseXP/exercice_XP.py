@@ -4,14 +4,14 @@
 # Hello world
 # Hello world
 # Hello world
-for i in range(4) : print("hello world")
-
+# for i in range(4) : print("hello world")
+print("hello world \nhello world \nhello world \nhello world")
 
 # 🌟 Exercise 2 : Some Math
 
 # Write code that calculates the result of: (99^3)*8 (meaning 99 to the power of 3, times 8).
 
-print((99^3)*8)
+print((99**3)*8)
 
 # 🌟 Exercise 3 : What’s your name ?
 
@@ -137,7 +137,8 @@ print(f"liste initiale {sandwich_orders_initial}")
 #     finished_sandwiches.append(sandwich)    #ajout du sandwich à la liste des sandwiches préparés
 #     print(finished_sandwiches)  #affichage de la liste des sandwiches préparés
 #     sandwich_orders.remove(sandwich)    #retrait du sandwich de la liste des sandwiches à préparer
-#     print(sandwich_orders)  #affichage de la liste des sandwiches à préparer   ; marche aussi et est plus élégant
+#     print(sandwich_orders)  #affichage de la liste des sandwiches à préparer   ; 
+#  le tout marche aussi et est plus élégant
          
 for sandwich in sandwich_orders_initial:
 
