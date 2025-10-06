@@ -6,15 +6,20 @@
 # number: 12 - length 10 ➞ [12, 24, 36, 48, 60, 72, 84, 96, 108, 120]
 # number: 17 - length 6 ➞ [17, 34, 51, 68, 85, 102]
 
-# user_number, user_length =input("entrez un nombre "),input("entrez une longueur de chaine ")
-# user_number=int(user_number)
-# user_length=int(user_length)
+user_number, user_length =input("entrez un nombre "),input("entrez une longueur de chaine ")
+user_number=int(user_number)
+user_length=int(user_length)
 
-# list_to_print=[]
-# for i in range(user_length):
-#     list_to_print.append((i+1)*user_number)
-#     i+=1
-# print(list_to_print)
+list_to_print=[]
+for i in range(user_length):
+    list_to_print.append((i+1)*user_number)
+    i+=1
+print(list_to_print)
+
+# meilleure formulation
+list_to_print=[]
+list_to_print=[i*user_number for i in range(1,user_length+1)]
+print(list_to_print)
 
 # Challenge 2
 # Write a program that asks a string to the user, and display a new string with any duplicate 
@@ -35,6 +40,8 @@ while i < len(str_user)-1:
     # print(new_str)
     i+=1
 print(new_str)
+
+
 
 
     
