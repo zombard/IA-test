@@ -6,23 +6,23 @@
 #         Autumn runs from September (9) to November (11)
 #         Winter runs from December (12) to February (2)
 
-# my_dictionnary={}
+my_dictionnary={}
 
-# for i in range(12):
-#     if i//3==0:
-#         if i==0:
-#             my_dictionnary.update({12:"Winter"})
-#         else:
-#             my_dictionnary.update({i:"Winter"})
-#     if i//3==1:
-#         my_dictionnary.update({i:"Spring"})
-#     if i//3==2:
-#         my_dictionnary.update({i:"Summer"})
-#     if i//3==3:
-#         my_dictionnary.update({i:"Automn"})        
-# print(my_dictionnary)
-# #guest_number=input("entrez un n° de mois (entre 1 et 12) ")
-# print(f"The season of this month is {my_dictionnary[int(guest_number)]}")
+for i in range(12):
+    if i//3==0:
+        if i==0:
+            my_dictionnary.update({12:"Winter"})
+        else:
+            my_dictionnary.update({i:"Winter"})
+    if i//3==1:
+        my_dictionnary.update({i:"Spring"})
+    if i//3==2:
+        my_dictionnary.update({i:"Summer"})
+    if i//3==3:
+        my_dictionnary.update({i:"Automn"})        
+print(my_dictionnary)
+#guest_number=input("entrez un n° de mois (entre 1 et 12) ")
+print(f"The season of this month is {my_dictionnary[int(guest_number)]}")
 
 # Exercise 2: For Loop
 # Key Python Topics:
@@ -41,11 +41,11 @@ for i in range(20):
 #     Write a while loop that keeps asking the user to enter their name.
 #     Stop the loop if the user’s input is your name.
 
-# my_name= "François"
-# user_name=""
-# while user_name!=my_name:
-#     user_name=input("what is your name ? ")
-# print("your name is the same as my name !!")
+my_name= "François"
+user_name=""
+while user_name!=my_name:
+    user_name=input("what is your name ? ")
+print("your name is the same as my name !!")
 
 # Exercise 4: Check the index
 # Using this variable:
@@ -54,10 +54,10 @@ for i in range(20):
 # of the name.
 # Example: if input is Cortana we should be printing the index 1
 
-# names = ['Samus', 'Cortana', 'V', 'Link', 'Mario', 'Cortana', 'Samus']
-# user_name=input("what is your name ? ")
-# if user_name in names:
-#     print(f"the index of this name is {names.index(user_name)}")
+names = ['Samus', 'Cortana', 'V', 'Link', 'Mario', 'Cortana', 'Samus']
+user_name=input("what is your name ? ")
+if user_name in names:
+    print(f"the index of this name is {names.index(user_name)}")
 
 # Exercise 6: Random number
 #     Ask the user to input a number from 1 to 9 (including).
