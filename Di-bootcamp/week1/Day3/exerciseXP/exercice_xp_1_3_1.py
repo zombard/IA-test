@@ -73,6 +73,177 @@ else:
 
 #     Print the name and height of each dog.
 #     Call the bark() and jump() methods for each dog.
-
-
 # Step 4: Compare Dog Sizes
+
+# Instructions:
+# Create a Song class with a method to print song lyrics line by line.
+# Step 1: Create the Song Class
+# ===============================================
+
+
+#     Create a class called Song.
+#     In the __init__ method, take lyrics (a list) as a parameter and create a corresponding attribute.
+#     Create a sing_me_a_song() method that prints each element of the lyrics list on a new line.
+# Example:
+
+# ====================================
+class song:
+    def __init__(self,lyrics):
+        self.lyrics=lyrics
+
+def sing_me_a_song(song):
+    for line in song.lyrics:
+        print(line)
+
+
+stairway = song(["There’s a lady who's sure", 
+"all that glitters is gold", "and she’s buying a stairway to heaven"])
+sing_me_a_song(stairway)
+
+
+# Create a Zoo class to manage animals. The class should allow adding animals, displaying them, selling them, and organizing them into alphabetical groups.
+# Key Python Topics:
+#     Classes and objects
+#     Object instantiation
+#     Methods
+#     Lists
+#     Dictionaries (for grouping)
+#     String manipulation
+
+# Instructions
+# Step 1: Define the Zoo Class
+# 1. Create a class called Zoo.
+# 2. Implement the __init__() method:
+class Zoo:
+    def __init__(self,zoo_name):
+        self.name=zoo_name
+        self.animals=[]
+#  It takes a string parameter zoo_name, representing the name of the zoo.
+#     Initialize an empty list called animals to keep track of animal names.
+
+# 3. Add a method add_animal(new_animal):
+
+#     This method adds a new animal to the animals list.
+#     Do not add the animal if it is already in the list.
+
+def add_animal(self,new_animal):
+    if new_animal not in self.animals:
+        self.animals.append(new_animal)
+        print(f"{new_animal} has been added to the zoo.")
+    else:
+        print(f"{new_animal} is already in the zoo.")
+
+
+
+# 4. Add a method get_animals():
+def get_animals(self):
+    print("Animals in the zoo:")
+    for animal in self.animals:
+        print(animal)
+#     This method prints all animals currently in the zoo.
+
+# 5. Add a method sell_animal(animal_sold):
+def sell_animal(self,animal_sold):
+    if animal_sold in self.animals:
+        self.animals.remove(animal_sold)
+        print(f"{animal_sold} will be sold.")
+    else:
+        print(f"{animal_sold} is not in the zoo.")
+#     This method checks if a specified animal exists on the animals list and if so, remove from it.
+
+# 6. Add a method sort_animals():
+
+#     This method sorts the animals alphabetically.
+#     It also groups them by the first letter of their name.
+#     The result should be a dictionary where:
+#         Each key is a letter.
+#         Each value is a list of animals that start with that letter.
+def sort_animals(self):
+    sorted_animals=sorted(self.animals)
+    grouped_animals={}
+    for animal in sorted_animals:
+        first_letter=animal[0]
+        if first_letter not in grouped_animals:
+            grouped_animals[first_letter]=[animal]
+        else:
+            grouped_animals[first_letter].append(animal)
+    self.grouped_animals=grouped_animals
+    print(self.grouped_animals)
+
+# Example output:
+
+# {
+#    'B': ['Baboon', 'Bear'],
+#    'C': ['Cat', 'Cougar'],
+#    'G': ['Giraffe'],
+#    'L': ['Lion'],
+#    'Z': ['Zebra']
+# }
+Thoiry=Zoo("Thoiry")
+Thoiry.add_animal("Giraffe")
+Thoiry.add_animal("Bear")   
+Thoiry.add_animal("Baboon")
+Thoiry.add_animal("Lion")
+Thoiry.add_animal("Zebra")
+Thoiry.add_animal("Cat")
+thoiry.add_animal("Cougar")
+
+
+
+# 7. Add a method get_groups():
+
+#     This method prints the grouped animals as created by sort_animals().
+
+# Example output:
+
+# B: ['Baboon', 'Bear']
+# C: ['Cat', 'Cougar']
+# G: ['Giraffe']
+# ...
+
+
+# Step 2: Create a Zoo Object
+
+#     Create an instance of the Zoo class and pass a name for the zoo.
+
+
+# Step 3: Call the Zoo Methods
+
+#     Use the methods of your Zoo object to test adding, selling, displaying, sorting, and grouping animals.
+
+
+# Example (No Internal Logic Provided)
+
+# class Zoo:
+#     def __init__(self, zoo_name):
+#         pass
+
+#     def add_animal(self, new_animal):
+#         pass
+
+#     def get_animals(self):
+#         pass
+
+#     def sell_animal(self, animal_sold):
+#         pass
+
+#     def sort_animals(self):
+#         pass
+
+#     def get_groups(self):
+#         pass
+
+# # Step 2: Create a Zoo instance
+# brooklyn_safari = Zoo("Brooklyn Safari")
+
+# # Step 3: Use the Zoo methods
+# brooklyn_safari.add_animal("Giraffe")
+# brooklyn_safari.add_animal("Bear")
+# brooklyn_safari.add_animal("Baboon")
+# brooklyn_safari.get_animals()
+# brooklyn_safari.sell_animal("Bear")
+# brooklyn_safari.get_animals()
+# brooklyn_safari.sort_animals()
+# brooklyn_safari.get_groups()
+
+

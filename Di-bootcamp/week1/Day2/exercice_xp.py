@@ -57,9 +57,7 @@ for first_name in family:
 # Create and manipulate a dictionary that contains information about the Zara brand.
 # Brand Information:
 
-# name: Zara
-# creation_date: 1975
-# creator_name: Amancio Ortega Gaona
+# name:r_name: Amancio Ortega Gaona
 # type_of_clothes: men, women, children, home
 # international_competitors: Gap, H&M, Benetton
 # number_stores: 7000
