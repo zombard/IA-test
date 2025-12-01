@@ -1,0 +1,23 @@
+URL: URL: https://github.com/zombard/IA-test/blob/cc5dabaa9010bb88d93b598e7930bb16de55a11c/Di-bootcamp/week1/Day4/brouillon.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/zombard/IA-test/blob/cc5dabaa9010bb88d93b598e7930bb16de55a11c/Di-bootcamp/week1/Day4/dailyChallenge/daily_challenge.py
+suggestions for improvement:
+- The provided code relates to pagination which is not covered in the Chapter Content/Questions. The Chapter Content/Questions covers Inheritance, Class methods and attributes, Polymorphism, Exceptions, `super()` function. Thus, the code is completely irrelevant.
+Correctness: 0%
+-----
+URL: URL: https://github.com/zombard/IA-test/blob/cc5dabaa9010bb88d93b598e7930bb16de55a11c/Di-bootcamp/week1/Day4/exercice_xp_1_4.py
+suggestions for improvement:
+- In Exercise 1, the class name `siamese` should follow the CamelCase convention and be named `Siamese` for better readability and consistency.
+- In Exercise 2, the `bark()`, `run_speed()`, and `fight()` methods should return values instead of printing them. This allows for more flexibility in how the results are used.
+- In Exercise 3, consider moving the `import random` statement outside the `do_a_trick()` method to avoid importing the module every time the method is called.  Importing it once at the beginning of the file is sufficient.
+- In Exercise 3 within `PetDog.play()` provide a more meaningful implementation instead of a simple print statement
+Correctness: 85%
+-----
+URL: URL: https://github.com/zombard/IA-test/blob/cc5dabaa9010bb88d93b598e7930bb16de55a11c/Di-bootcamp/week1/Day4/functions.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
