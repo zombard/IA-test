@@ -1,0 +1,23 @@
+URL: URL: https://github.com/zombard/IA-test/blob/main/Di-bootcamp/week1/Day4/brouillon.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----
+URL: URL: https://github.com/zombard/IA-test/blob/main/Di-bootcamp/week1/Day4/dailyChallenge/daily_challenge.py
+suggestions for improvement:
+- The submitted code is for a Pagination class, which is completely unrelated to the chapter content focusing on Inheritance, Polymorphism, Exceptions, and the `super()` function.
+- The code does not address any of the topics mentioned in the prompt.
+Correctness: 0%
+-----
+URL: URL: https://github.com/zombard/IA-test/blob/main/Di-bootcamp/week1/Day4/exercice_xp_1_4.py
+suggestions for improvement:
+- In Exercise 1, the `Pets` class is defined twice, which is redundant. Remove the duplicate definition.
+- In Exercise 2, consider returning the strings from the methods instead of printing them directly to allow for more flexibility in how the output is handled.
+- In Exercise 3, the prompt asks to import the `Dog` class from the previous exercise 'In a new Python file'. This is impossible to check in this setting, but ideally the user would have created a separate file and imported the class to use it. The code works as is but it is missing the import that the prompt is asking for.
+Correctness: 90%
+-----
+URL: URL: https://github.com/zombard/IA-test/blob/main/Di-bootcamp/week1/Day4/functions.py
+suggestions for improvement:
+- Skipping file (too many comments or blank lines).
+Correctness: N/A%
+-----

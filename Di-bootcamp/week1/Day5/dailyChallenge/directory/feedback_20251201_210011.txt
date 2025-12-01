@@ -1,0 +1,10 @@
+URL: URL: https://github.com/zombard/IA-test/blob/cc5dabaa9010bb88d93b598e7930bb16de55a11c/Di-bootcamp/week1/Day5/dailyChallenge/directory/game.py
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
+URL: URL: https://github.com/zombard/IA-test/blob/cc5dabaa9010bb88d93b598e7930bb16de55a11c/Di-bootcamp/week1/Day5/dailyChallenge/directory/rock-paper-scissors.py
+suggestions for improvement:
+- No specific feedback.
+Correctness: 100%
+-----
